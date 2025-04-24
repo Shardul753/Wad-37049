@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Insights | A Developer's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">TechInsights</a></h1>
+                <p class="tagline">Exploring the world of technology</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <article>
+                <div class="post-image">
+                    <img src="https://source.unsplash.com/random/800x400/?programming" alt="Featured Post">
+                </div>
+                <div class="post-content">
+                    <span class="category">JavaScript</span>
+                    <h2><a href="post.html">Understanding Modern JavaScript Frameworks</a></h2>
+                    <p class="excerpt">A deep dive into React, Vue, and Angular: comparing their architectures, performance, and use cases to help you choose the right framework for your next project.</p>
+                    <div class="post-meta">
+                        <span class="date">July 15, 2023</span>
+                        <span class="read-time">8 min read</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://source.unsplash.com/random/400x300/?coding" alt="Post 1">
+                    </div>
+                    <div class="post-content">
+                        <span class="category">Web Development</span>
+                        <h3><a href="post.html">CSS Grid vs Flexbox: When to Use Each</a></h3>
+                        <p class="excerpt">Understanding the strengths of both layout systems and how to combine them effectively in modern web design.</p>
+                        <div class="post-meta">
+                            <span class="date">July 10, 2023</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://source.unsplash.com/random/400x300/?server" alt="Post 2">
+                    </div>
+                    <div class="post-content">
+                        <span class="category">DevOps</span>
+                        <h3><a href="post.html">Containerization with Docker: A Beginner's Guide</a></h3>
+                        <p class="excerpt">Learn how Docker containers can simplify your development workflow and deployment process.</p>
+                        <div class="post-meta">
+                            <span class="date">July 5, 2023</span>
+                            <span class="read-time">7 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://source.unsplash.com/random/400x300/?ai" alt="Post 3">
+                    </div>
+                    <div class="post-content">
+                        <span class="category">Machine Learning</span>
+                        <h3><a href="post.html">Getting Started with TensorFlow.js</a></h3>
+                        <p class="excerpt">Bring machine learning to the browser with this powerful JavaScript library for training and deploying ML models.</p>
+                        <div class="post-meta">
+                            <span class="date">June 28, 2023</span>
+                            <span class="read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <a href="blog.html" class="view-all">View All Posts</a>
+        </section>
+
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to my newsletter to get the latest posts delivered to your inbox.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>TechInsights</h3>
+                    <p>A blog about web development, programming, and technology trends.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 TechInsights. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
